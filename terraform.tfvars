@@ -1,2 +1,2 @@
-project_id = "infra1-430721"
+project_id = "shinfra-123-p1"
 region     = "us-central1"
