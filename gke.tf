@@ -6,6 +6,7 @@ resource "google_container_cluster" "primary" {
   subnetwork = google_compute_subnetwork.vpc_subnetwork.id
 
   initial_node_count = 1
+  deletion_protection = false
 
   node_config {
     machine_type = "e2-micro"
